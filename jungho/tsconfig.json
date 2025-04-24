@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@method/*": ["method/*"]
+      },
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "declaration": false, // 이 줄을 추가하여 .d.ts 파일 생성을 방지합니다.
+    }
+  }
